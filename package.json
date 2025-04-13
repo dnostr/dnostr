@@ -1,11 +1,17 @@
 {
   "name": "dnostr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "dnostr",
   "main": "index.js",
+  "bin": {
+    "dnostr": "bin/dnostr.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Melvin Carvalho",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "did-nostr-resolver": "^0.0.6"
+  }
 }
